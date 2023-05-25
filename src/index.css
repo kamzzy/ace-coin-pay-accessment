@@ -4,7 +4,7 @@
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background-color: powderblue;
+  background-color: #a3bfd5;
 }
 
 .container {
@@ -25,7 +25,7 @@
 }
 
 .cardEdit {
-  color: blue;
+  color: #025efe;
 }
 
 .enterDigit {
@@ -42,7 +42,7 @@
 }
 
 .placeHolder::placeholder {
-  color: rgb(169, 168, 168);
+  color: #afb8ca;
 }
 
 .cardNumberInput {  
@@ -50,7 +50,7 @@
 }
 
 .cvv span {
-  color: rgb(169, 168, 168);
+  color: #d2d6e7;
 }
 .cvvInput,
 .passwordInput {
@@ -80,7 +80,7 @@
 .cvvInput::placeholder,
 .expiryDate input::placeholder,
 .passwordInput::placeholder {
-  color: black;
+  color: #252e50;
   font-weight: bold;
 }
 
@@ -93,7 +93,7 @@
 .payButton {
   display: flex;
   justify-content: center;
-  background-color: blue;
+  background-color: #025efe;
  
 }
 
@@ -109,4 +109,66 @@ form input,
 .payButton {
   border-radius: 12px !important;
   margin-top: 34px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border: transparent;
+  background-color: #eff4f8;
+}
+
+.card-body {
+  height: 85vh;
+  background-color: #fff;
+}
+
+.bg .col-6,
+.bg .col-12 {
+  background-color: #eff4f8;
+}
+
+.appleIcon {
+  width: 22px;
+}
+
+.receiptDiv {
+  height: 4rem;
+  padding-top: 12px;
+}
+
+.receipt {
+  width: 26px;
+  height: 30px;
+}
+
+.invoiceDiv {
+display: flex;
+justify-content: flex-end;
+padding-top: 12px;
+}
+
+.pattern {
+  width: 100%;
+  padding: 0;
+}
+
+.mCard2 {
+  width: 46px;
+}
+
+.mCard2-div {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px 20px 0;
+}
+
+.creditCard {
+  background-color: #eff4f8;
+  padding: 0 10px 20% 10px;
+}
+
+.creditCard-bg {
+  background-color: #fff;
 }
