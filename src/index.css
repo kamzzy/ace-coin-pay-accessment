@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: powderblue;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.cardNumber {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.cardEdit {
+  color: blue;
+}
+
+.enterDigit {
+  color: rgb(169, 168, 168);
+}
+
+.placeHolder {
+  background-image: url(/public/icons/mCard1.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  text-indent: 46px;
+  border-color: rgb(220, 217, 217);
+  height: 4rem;
+}
+
+.placeHolder::placeholder {
+  color: rgb(169, 168, 168);
+}
+
+.cardNumberInput {  
+  padding: 30px 0;
+}
+
+.cvv span {
+  color: rgb(169, 168, 168);
+}
+.cvvInput,
+.passwordInput {
+  background-image: url(/public/icons/grid.png);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  height: 4rem;
+}
+
+.expiryDate { 
+  padding-right: 0 !important;
+}
+
+.expiryDate input {
+  height: 4rem;
+  text-align: center;
+  padding: 0 !important;
+}
+
+.expiryDate .col-2 span {
+ display: flex;
+ justify-content: center;
+ font-size: 1.5rem;
+ padding-top: 2.6rem;
+}
+
+.cvvInput::placeholder,
+.expiryDate input::placeholder,
+.passwordInput::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+.passwordInput::placeholder {
+  font-size: 32px;
+  text-align: left;
+  padding-left: 13px;
+}
+
+.payButton {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+ 
+}
+
+.payButton button {
+  width: 100%;
+  height: 4rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+form input,
+.payButton {
+  border-radius: 12px !important;
+  margin-top: 34px;
 }
