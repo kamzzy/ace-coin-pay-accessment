@@ -50,6 +50,10 @@ form h5 {
   font-size: 1rem;
 }
 
+form {
+  padding: 15% 0;
+}
+
 .spanDetails {
   color: rgb(169, 168, 168);
   font-size: 0.8rem;
@@ -63,7 +67,14 @@ form h5 {
 }
 
 .expiryDate { 
-  padding-right: 0 !important;
+  padding: 8px 0 0 0;
+}
+
+.expiryDateDigit {
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .expiryDate input {
@@ -73,13 +84,17 @@ form h5 {
 }
 
 .expiryDate .col-2 span {
- display: flex;
- justify-content: center;
+  display: flex;
  font-size: 1.5rem;
- padding-top: 2.6rem;
- 
+ padding-top: 64%;
 }
 
+.password {
+  margin: 0;
+}
+.passwordInputDiv {
+  padding: 0 !important;
+}
 .cvvInput::placeholder,
 .expiryDate input::placeholder,
 .passwordInput::placeholder {
@@ -98,7 +113,7 @@ form h5 {
   display: flex;
   justify-content: center;
   background-color: #025efe;
-  margin: 6% 0 0 0;
+  margin: 17% 0 0 0;
   border-radius: 12px !important;
 }
 
@@ -113,11 +128,10 @@ form h5 {
 .cardDetails {
   font-weight: bold;
   border-radius: 12px;
-  padding: 12px;
 }
 
 .cardDetails2 {
-  background-color: #eff8f2;
+  background-color: #EFF5F9;
   padding: 0 12px;
 }
 
@@ -127,7 +141,10 @@ form h5 {
 
 .receiptDiv {
   height: 4rem;
-  padding-top: 12px;
+}
+
+.receiptDiv .blackText {
+  font-size: 2rem;
 }
 
 .receipt {
@@ -138,7 +155,6 @@ form h5 {
 .invoiceDiv {
 display: flex;
 justify-content: flex-end;
-padding-top: 12px;
 }
 
 .pattern {
@@ -197,5 +213,9 @@ padding-top: 12px;
 
 .greyText {
   color: rgb(169, 168, 168);
+  font-size: 0.9rem;
+}
+
+.blackText {
   font-size: 0.9rem;
 }
