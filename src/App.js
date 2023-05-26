@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row firstRow">
-          <div className="col-7">
-            <nav className="navbar navbar-expand-lg">
+          <div className="col-md-7 col-sm-12">
+            <nav className="navbar">
               <div className="container-fluid">
                 <a className="navbar-brand" href="/"><strong>AceCoin</strong>Pay</a>
                 < Date />
@@ -65,7 +65,7 @@ function App() {
               </div>
             </form>
           </div>
-          <div className="col-5 cardDetails">
+          <div className="col-md-5 col-sm-12 cardDetails">
             
               <div className="row cardChipRow">
                 <div className="col-6 cardChip">

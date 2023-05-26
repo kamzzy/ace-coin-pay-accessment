@@ -50,9 +50,11 @@ form h5 {
   font-size: 1rem;
 }
 
-form {
-  padding: 15% 0;
+form,
+form div {
+  padding: 2% 0;
 }
+
 
 .spanDetails {
   color: rgb(169, 168, 168);
@@ -113,8 +115,8 @@ form {
   display: flex;
   justify-content: center;
   background-color: #025efe;
-  margin: 17% 0 0 0;
   border-radius: 12px !important;
+  margin: 0 0 5% 0;
 }
 
  .payButton button { 
@@ -183,12 +185,12 @@ justify-content: flex-end;
 .creditCard-bg {
   background-color: #fff;
   border-radius: 0 0 12px 12px;
-  padding: 4rem 1rem 0 1rem;
+  padding: 24% 1% 0 4%;
 }
 
 .cardChipRow {
   margin: 0 1px;
-  padding: 0 6%;
+  padding: 0 3%;
 }
 
 .cardChip {
