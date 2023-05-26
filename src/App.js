@@ -1,9 +1,10 @@
 import Date from "./Components/Date";
 import { MdModeEditOutline } from "react-icons/md";
+import { BiWifi } from "react-icons/bi";
 
 
 function App() {
- 
+
   return (
     <div className="App">
       <div className="container">
@@ -64,78 +65,82 @@ function App() {
               </div>
             </form>
           </div>
-          <div className="col-5">
-
-            <div className="card">
-              <div className="card-body">
-          
-                <div className="row creditCard">
-                  <div className="creditCard-bg">
-                  <div className="col-12">
-                    <p>Jonathan Michael</p>
+          <div className="col-5 cardDetails">
+            
+              <div className="row cardChipRow">
+                <div className="col-6 cardChip">
+                  <img src="/icons/cardChip.png" alt="cardChip" />
+                </div>
+                <div className="network col-6">
+                  <BiWifi />
+                </div>
+              </div>
+            <div className="cardDetails2">
+            <div className="row creditCard">
+              <div className="creditCard-bg">
+                <div className="col-12">
+                  <p>Jonathan Michael</p>
+                </div>
+                <div className="row">
+                  <div className="col-3">
+                    <p><strong>....</strong></p>
                   </div>
-                  <div className="row">
-                    <div className="col-8">
-                      <p className="card-text">....</p>
-                      <p className="card-text">3456</p>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-6">
-                      <p className="card-text">09/22</p>
-                    </div>
-
-                    <div className="col-6 mCard2-div">
-                      <img src="/icons/mCard2.png" alt="mastercard" className="mCard2" />
-                    </div>
+                  <div className="col-4">
+                    <p>3456</p>
                   </div>
                 </div>
-                </div>
-                <div className="row bg">
-                  <div className="col-6 bg">
-                    <p className="card-text">Company</p>
-                  </div>
+                <div className="row">
                   <div className="col-6">
-                    <p className="card-text">
-                      <img src="/icons/apple.png" alt="apple" className="appleIcon" /> Apple </p>
+                    <p>09/22</p>
                   </div>
-                  <div className="col-6">
-                    <p className="card-text">Order Number</p>
-                  </div>
-                  <div className="col-6">
-                    <p className="card-text">1266201</p>
-                  </div>
-                  <div className="col-6">
-                    <p className="card-text">Product</p>
-                  </div>
-                  <div className="col-6">
-                    <p className="card-text">MacBook Air</p>
-                  </div>
-                  <div className="col-6">
-                    <p className="card-text">Vat (20%)</p>
-                  </div>
-                  <div className="col-6">
-                    <p className="card-text">$100.00</p>
-                  </div>
-                  <div className="col-12">
-                    <p className="card-text">You have to pay</p>
-                  </div>
-                  <img src="/icons/pattern.png" alt="design" className="pattern" />
-                
-                  <div className="col-6 receiptDiv">
-                    <p className="card-text"><strong>549</strong>.99 USD</p>
-                  </div>
-                  <div className="col-6 invoiceDiv">
-                    <img src="/icons/invoice.png" alt="receipt" className="receipt" />
+
+                  <div className="col-6 mCard2-div">
+                    <img src="/icons/mCard2.png" alt="mastercard" className="mCard2" />
                   </div>
                 </div>
               </div>
             </div>
+            <div className="row bg">
+              <div className="col-6">
+                <p className="greyText">Company</p>
+              </div>
+              <div className="col-6">
+                <p>
+                  <img src="/icons/apple.png" alt="apple" className="appleIcon" /> Apple </p>
+              </div>
+              <div className="col-6">
+                <p className="greyText">Order Number</p>
+              </div>
+              <div className="col-6">
+                <p>1266201</p>
+              </div>
+              <div className="col-6">
+                <p className="greyText">Product</p>
+              </div>
+              <div className="col-6">
+                <p>MacBook Air</p>
+              </div>
+              <div className="col-6">
+                <p className="greyText"> Vat (20%)</p>
+              </div>
+              <div className="col-6">
+                <p>$100.00</p>
+              </div>
+              <div className="col-12">
+                <span className="greyText">You have to pay</span>
+              </div>
+              <img src="/icons/pattern.png" alt="design" className="pattern" />
 
+              <div className="col-6 receiptDiv">
+                <p><strong>549</strong>.99 <span className="greyText">USD</span></p>
+              </div>
+              <div className="col-6 invoiceDiv">
+                <img src="/icons/invoice.png" alt="receipt" className="receipt" />
+              </div>
+            </div>
           </div>
-
+          </div>
         </div>
-
       </div>
     </div>
   );
